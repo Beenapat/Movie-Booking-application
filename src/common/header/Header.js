@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import 'Header.css';
 class Header extends Component {
-	
-	<div className='attribute'>
+	 render(){
+	return(<div className='attribute'>
 	<img className='logo'  src="logo.svg" alt="Italian Trulli">
-	</div>
-	
+	</div>)
+	 }
 }
+
+export default Header;
